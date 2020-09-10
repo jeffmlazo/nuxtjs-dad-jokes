@@ -1,0 +1,30 @@
+// Default global styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $fonts;
+  font-size: $font-size;
+  line-height: 1.6;
+  background: $bg-color;
+}
+
+a {
+  color: $link-primary;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  background: rgb(252, 201, 201);
+}

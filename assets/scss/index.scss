@@ -1,0 +1,17 @@
+// import libraries
+// ex. mixins, material design, other third party libary
+
+// import base
+// ex. _variables.scss
+@import 'base/variables';
+
+// import layouts
+@import 'layouts/default';
+
+// import pages
+@import 'pages/home';
+@import 'pages/jokes';
+
+// import components
+@import 'components/appheader';
+@import 'components/joke';
